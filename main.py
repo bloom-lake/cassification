@@ -1,5 +1,6 @@
 from flask import Flask
-from app import views as application
+from app import views 
+application=app
 
 app = Flask(__name__) # webserver gateway interphase (WSGI)
 
